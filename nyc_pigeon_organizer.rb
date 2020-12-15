@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
       name.each{ |pigeon|
         if pigeon_list.any?(pigeon) == false
           puts "pigeon list conditional, pigeon: #{pigeon}"
-          pigeon_list[name] = {}
+          pigeon_list[pigeon] = {}
         end
       }
     }
