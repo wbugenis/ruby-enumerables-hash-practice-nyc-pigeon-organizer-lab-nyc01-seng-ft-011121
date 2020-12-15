@@ -5,11 +5,10 @@ def nyc_pigeon_organizer(data)
     descriptor.each{ |description, name|
       name.each{ |pigeon|
         if !pigeon_list[pigeon]
-          pigeon_list[pigeon] = 
-            { color: [],
-              gender: [],
-              lives: []
-            }
+          pigeon_list[pigeon] = {}
+        end
+        if !pigeon_list[pigeon][quality]
+          pigeon_list[pigeon][quality] = []
         end
         pigeon_list[pigeon][quality] << description.to_s
       }
