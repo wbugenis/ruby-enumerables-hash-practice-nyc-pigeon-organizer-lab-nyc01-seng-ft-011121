@@ -14,6 +14,7 @@ def nyc_pigeon_organizer(data)
               gender: [],
               lives: []
             }
+            puts "created new pigeon #{pigeon}"
         end
         pigeon_list[pigeon][quality] << description
         
