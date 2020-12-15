@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
               lives: []
             }
         end
-        pigeon_list[pigeon][quality] << description.to_S
+        pigeon_list[pigeon][quality] << description.to_s
       }
     }
   }
