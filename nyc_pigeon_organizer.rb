@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
             }
             puts "created new pigeon #{pigeon}"
         end
-        pigeon_list[pigeon][quality] << description
+        pigeon_list[pigeon][quality] << description.to_s
         
       }
     }
