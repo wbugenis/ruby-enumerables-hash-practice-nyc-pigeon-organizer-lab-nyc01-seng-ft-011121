@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
     descriptor.each{ |description, name|
       puts "description: #{description}, name: #{name}"
       name.each{ |pigeon|
-        puts "in name.each loop, quality: #{quality}""
+        puts "in name.each loop, quality: #{quality}"
         if pigeon_list.any?(pigeon) == false
           pigeon_list[pigeon] = 
             { color: [],
