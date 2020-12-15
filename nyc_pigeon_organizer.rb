@@ -21,5 +21,6 @@ def nyc_pigeon_organizer(data)
       }
     }
   }
+  puts pigeon_list
 end
 
