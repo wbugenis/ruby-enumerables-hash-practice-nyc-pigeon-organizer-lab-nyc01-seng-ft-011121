@@ -11,11 +11,12 @@ def nyc_pigeon_organizer(data)
       name.each{ |pigeon|
         if pigeon_list.any?(pigeon) == false
           pigeon_list[pigeon] = 
-            { color:[],
-              gender:[],
+            { color: [],
+              gender: [],
               lives: []
             }
         end
+        
       }
     }
   }
