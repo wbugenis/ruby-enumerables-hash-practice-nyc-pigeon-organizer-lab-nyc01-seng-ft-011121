@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   data.each{ |quality, descriptor|
   
     descriptor.each{ |description, name|
-      if pigeon_list[name] == false
+      if pigeon_list[name]
         pigeon_list[name] = { description=> [] }
       end
     }
