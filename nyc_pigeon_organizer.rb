@@ -8,8 +8,8 @@ def nyc_pigeon_organizer(data)
     
     descriptor.each{ |description, name|
       puts "description: #{description}, name: #{name}"
-      name.each{ |name
-      if pigeon_list[name]
+      name.each{ |pigeon|
+      if pigeon_list.any?(pigeon) == false
         pigeon_list[name] = { description=> [] }
       end
     }
