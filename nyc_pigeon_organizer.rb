@@ -15,8 +15,8 @@ def nyc_pigeon_organizer(data)
               gender: [],
               lives: []
             }
-          else pigeon_list[pigeon][description] << descriptor
         end
+        pigeon_list[pigeon][description] << descriptor
         
       }
     }
