@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
               lives: []
             }
         end
-        pigeon_list[pigeon][descriptor] << description
+        pigeon_list[pigeon][:descriptor] << description
         
       }
     }
