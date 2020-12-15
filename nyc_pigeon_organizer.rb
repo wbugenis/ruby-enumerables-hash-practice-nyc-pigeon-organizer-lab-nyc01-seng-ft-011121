@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
       puts "description: #{description}, name: #{name}"
       name.each{ |pigeon|
       if pigeon_list.any?(pigeon) == false
-        pigeon_list[name] = { description=> [] }
+        pigeon_list[name] = {}
       end
     }
   }
