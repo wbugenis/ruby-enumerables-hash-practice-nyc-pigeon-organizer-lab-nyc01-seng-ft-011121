@@ -9,9 +9,10 @@ def nyc_pigeon_organizer(data)
     descriptor.each{ |description, name|
       puts "description: #{description}, name: #{name}"
       name.each{ |pigeon|
-      if pigeon_list.any?(pigeon) == false
-        pigeon_list[name] = {}
-      end
+        if pigeon_list.any?(pigeon) == false
+          pigeon_list[name] = {}
+        end
+      }
     }
   }
   binding.pry
