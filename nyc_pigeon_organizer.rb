@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   
   data.each{ |quality, descriptor|
-    descriptor.each_with_index{ |description, name, index|
+    descriptor.each{ |description, name|
       pigeon_list[name][index] = { description=> [] }
     }
   }
